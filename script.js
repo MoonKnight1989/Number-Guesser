@@ -13,5 +13,5 @@ let compareGuesses = (human, computer, secret) => {
         return true
     }
 
-}
+}oijpijgite e
 
