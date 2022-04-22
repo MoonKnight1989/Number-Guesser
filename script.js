@@ -8,10 +8,13 @@ let generateTarget = () => {
     Math.floor((Math.random() * 9) + 1)
 }
 
-let compareGuesses = (human, computer, secret) => {
-    if  (human === secret) {
-        return true
+let compareGuesses = (humanNum, compNum, target) => {
+
+    let compGuess = Math.abs (target - compNum);
+    let humanGuess = Math.abs (target - humanNum);
+   
     }
 
-}oijpijgite e
+
+
 
