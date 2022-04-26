@@ -5,13 +5,16 @@ let currentRoundNumber = 1;
 // Write your code below:
 
 let generateTarget = () => {
-    Math.floor((Math.random() * 9) + 1)
+    return Math.floor(Math.random() * 10)
+}
+console.log(generateTarget());
+
+let compareGuesses = (humanGuess, computerGuess, targetGuess) => {
+   const humanDifference = Math.abs(targetGuess - humanGuess);
+   const computerDifference = Math.abs(targetGuess - computerGuess);
+   if (humanDifference === computerDifference)
+    return true;
+
 }
 
-let compareGuesses = (human, computer, secret) => {
-    if  (human === secret) {
-        return true
-    }
-
-}oijpijgite e
 
